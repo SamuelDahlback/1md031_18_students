@@ -1,0 +1,83 @@
+
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif|Share+Tech+Mono");
+
+body {
+    font-family: arial;
+    font-size: 14pt;
+    background-color: rgb(0,0,0);
+}
+
+.Title {
+  text-align: center;
+  color: rgba(0,0,0,1.0);
+  font-size: 40pt;
+  color: rgb(255,255,255);
+  border: 2px solid rgb(120,0,0);
+  width: auto;
+  height: auto;
+  background-image: url(https://2486634c787a971a3554-d983ce57e4c84901daded0f67d5a004f.ssl.cf1.rackcdn.com/brown-hotel/media/cache/BrownHotel-Dining-EnglishGrillHeader-internal-1500x375-5a09e511a4146-1500x375.jpg);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.Burger {
+  text-align: left;
+  }
+
+  .Burgerselection{
+    text-align: left;
+    margin-left: 1vw;
+  }
+
+#allergy {
+    font-weight: bold;
+}
+
+.Burgers {
+  text-align: center;
+  background-color: rgb(255,255,255);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(120,0,0);
+  width: auto;
+  height: auto;
+}
+
+.Contact {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0,0,0);
+  border: 2px dotted rgb(120,0,0);
+  width: auto;
+  height: auto;
+}
+
+.Contactinformation {
+  margin-left: 2vw;
+}
+
+#recipient {
+  cursor: pointer;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+input[type="radio"]:hover{
+  cursor: pointer;
+}
+
+a, strong, em {
+    color: #0099ff;
+}
+
+p.info,
+#login p {
+    width: 80%;
+    margin: 1vw auto;
+}
